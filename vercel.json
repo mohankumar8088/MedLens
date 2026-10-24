@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "functions": {
+    "main.py": {
+      "includeFiles": "static/**",
+      "maxDuration": 30
+    }
+  }
+}

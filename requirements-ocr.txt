@@ -1,0 +1,6 @@
+# Optional local OCR dependencies. Tesseract OCR and Poppler must also be installed
+# on the machine. Vercel's serverless runtime does not include these system tools.
+-r requirements.txt
+pytesseract>=0.3.13,<1
+Pillow>=11,<13
+pdf2image>=1.17,<2
